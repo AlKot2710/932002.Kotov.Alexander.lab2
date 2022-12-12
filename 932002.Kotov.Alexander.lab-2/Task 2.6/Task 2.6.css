@@ -1,0 +1,12 @@
+.top-div {
+  margin: auto;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bott-div {
+  margin: auto;
+  width: 400px;
+  border: 10px solid blue;
+  padding: 40px;
+}

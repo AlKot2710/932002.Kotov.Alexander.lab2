@@ -1,0 +1,29 @@
+.block-list {
+  background-color: bisque;
+  width: 20%;
+  margin-top: 0px;
+  padding-top: 20px;
+  height: 80px;
+}
+
+.content {
+  background-color: darkgray;
+  display: inline-block;
+  width: 80%;
+}
+
+.page {
+  background-color: aqua;
+  display: flex;
+  border: 1px solid black;
+}
+
+@media (max-width: 800px) {
+  .page {
+    display: block;
+    min-width: 450px;
+  }
+  .content {
+    margin-top: -16px;
+  }
+}

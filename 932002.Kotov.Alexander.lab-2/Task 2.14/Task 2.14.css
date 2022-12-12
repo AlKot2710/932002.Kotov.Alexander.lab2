@@ -1,0 +1,40 @@
+.block-list {
+  background-color: bisque;
+  width: 10%;
+  margin-top: 0px;
+  padding-top: 20px;
+  height: 80px;
+}
+
+.content {
+  background-color: darkgray;
+  display: inline-block;
+  width: 90%;
+}
+
+.page {
+  background-color: aqua;
+  display: flex;
+  border: 1px black solid;
+}
+
+@media (max-width: 800px) {
+  .block-list {
+    display: flex;
+    width: auto;
+    list-style-type: none;
+    height: auto;
+    padding-top: 0;
+    margin-top: 15px;
+  }
+  .page {
+    flex-direction: column;
+    justify-content: left;
+  }
+  li {
+    margin-right: 5px;
+  }
+  .content {
+    width: 100%;
+  }
+}

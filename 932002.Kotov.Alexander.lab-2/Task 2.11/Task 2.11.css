@@ -1,0 +1,9 @@
+.content {
+  background-color: aqua;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid black;
+}
+img {
+  float: right;
+}

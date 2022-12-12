@@ -1,0 +1,16 @@
+.top-div {
+  background-color: green;
+  color: white;
+  margin: auto;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bott-div {
+  background-color: blue;
+  color: white;
+  margin: auto;
+  width: 30%;
+  border: 25px solid blue;
+  padding: 25px;
+}

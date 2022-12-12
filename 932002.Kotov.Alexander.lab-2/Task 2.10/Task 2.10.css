@@ -1,0 +1,11 @@
+.float-box {
+  background-color: aquamarine;
+  width: 200px;
+  height: 100px;
+  float: left;
+  margin: 15px;
+}
+.clear-box {
+  background-color: bisque;
+  clear: both;
+}

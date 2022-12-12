@@ -1,0 +1,26 @@
+.block-list {
+  background-color: bisque;
+  width: 10%;
+  margin-top: 0px;
+  padding-top: 20px;
+  height: 80px;
+}
+
+.content {
+  background-color: darkgray;
+  display: inline-block;
+  width: 90%;
+}
+
+.page {
+  background-color: aqua;
+  display: flex;
+}
+footer {
+  background-color: limegreen;
+  width: 100%;
+  height: 7%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
